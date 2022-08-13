@@ -1,0 +1,173 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.container{
+    width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #007765;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    top: 0;
+}
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_li{
+    color: white;
+    display: inline-block;
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.nav_link:hover{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.row{
+    color: white;
+    font-size: 24px;
+}
+.net{
+    background: url("../img/background1.png");
+    background-repeat: no-repeat;
+    margin-top: 84px;
+    background-size: cover;
+    background-position: center;
+}
+.pipernet{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 160px 0px;
+    margin: 0 auto;
+}
+.title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+.problem{
+    background-color: #EEEEEE;
+}
+.the_problem{
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.bolt{
+    font-weight: bold;
+}
+.text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+.blockquote{
+    background: url(../img/Background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.block_text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 893px;
+    margin: auto;
+}
+.block{
+    padding: 128px 0px;
+}
+.coin, .members1, .members2{
+    display: flex;
+    justify-content: space-between;
+}
+.text_coin{
+    width: 930px;
+    height: 110px;
+    margin: 0 auto;
+}
+.logo2{
+    width: 123px;
+    height: 123px;
+}
+.intro{
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.team{
+    background-color: #EEEEEE;
+}
+.team_members{
+    padding-top: 58px;
+    padding-bottom: 84px;
+}
+.member{
+    width: 350px;
+    align-content: center;
+    text-align: center;
+    height: 283px;
+    margin-top: 30px;
+}
+.name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+    margin: 12px 0px 0px 0px;
+}
+.job{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+.footer{
+    background-color: #333333;
+}
+.cont_footer{
+    padding-top: 52px;
+    padding-bottom: 60px;
+}
+.text_footer{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 540px;
+    margin: 0 auto;
+}
